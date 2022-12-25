@@ -1,0 +1,40 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.tabSize": 2,
+    "tabnine.experimentalAutoImports": true,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "workbench.layoutControl.enabled": false,
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "material-icon-theme.activeIconPack": "nest",
+    "editor.accessibilitySupport": "off",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
