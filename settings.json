@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Tokyo Night",
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -24,6 +23,7 @@
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
     },
     "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "500",
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "workbench.layoutControl.enabled": false,
     "[prisma]": {
@@ -36,5 +36,52 @@
     "editor.accessibilitySupport": "off",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "window.menuBarVisibility": "toggle",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "material-icon-theme.folders.associations": {
+        "adapters": "contract",
+        "grpc": "pipe",
+        "kube": "kubernetes",
+        "main": "lib",
+        "websockets": "pipe",
+        "implementations": "core",
+        "protos": "pipe",
+        "entities": "class",
+        "kafka": "pipe",
+        "use-cases": "functions",
+        "migrations": "tools",
+        "schemas": "class",
+        "useCases": "functions",
+        "eslint-config": "tools",
+        "typeorm": "database",
+        "_shared": "shared",
+        "mappers": "meta",
+        "fakes": "mock",
+        "modules": "components",
+        "subscribers": "messages",
+        "domain": "class",
+        "protocols": "contract",
+        "infra": "app",
+        "view-models": "views",
+        "presentation": "template",
+        "dtos": "typescript",
+        "http": "container",
+        "providers": "include",
+        "factories": "class",
+        "repositories": "mappings"
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Rosé Pine Moon",
+
+    // Discord Presence
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e Pomodoro",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
 }
